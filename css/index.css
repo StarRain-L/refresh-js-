@@ -1,0 +1,96 @@
+
+#banner { position: relative; width: 375px; height: 286px; border: 1px solid #666; overflow: hidden; }
+#banner_list img { border: 0px; }
+#banner_bg { position: absolute; bottom: 0; background-color: #000; height: 30px; filter: Alpha(Opacity=30); opacity: 0.3; z-index: 1000; cursor: pointer; width: 375px; }
+#banner_info { position: absolute; bottom: 0; left: 5px; height: 22px; color: #fff; z-index: 1001; cursor: pointer }
+#banner_text { position: absolute; width: 120px; z-index: 1002; right: 3px; bottom: 3px; }
+#banner ul { position: absolute; list-style-type: none; filter: Alpha(Opacity=80); opacity: 0.8; z-index: 1002; margin: 0; padding: 0; bottom: 3px; right: 5px; }
+#banner ul li { padding: 0px 8px; float: left; display: block; color: #FFF; background: #6f4f67; cursor: pointer; border: 1px solid #333; }
+#banner ul li.on { background-color: #000; }
+#banner_list a { position: absolute; }
+
+
+
+
+.swiper-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 375px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+/*包裹自定义分页器的div的位置等CSS样式*/
+.swiper-pagination-custom {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+/*自定义分页器的样式，这个你自己想要什么样子自己写*/
+.swiper-pagination-customs {
+    width: 30px;
+    height: 4px;
+    display: inline-block;
+    background: #000;
+    opacity: .3;
+    margin: 0 5px;
+}
+/*自定义分页器激活时的样式表现*/
+.swiper-pagination-customs-active {
+    opacity: 1;
+    background-color: #F78E00;
+}
+
+
+
+
+
+
+
+.content{
+    width: 375px;
+    padding-bottom: 10px;
+}
+.content ul li{
+    height: 50px;
+    margin: 10px 10px 0 10px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+.push{
+    display: none;
+    width: 375px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+.push img{
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+}
